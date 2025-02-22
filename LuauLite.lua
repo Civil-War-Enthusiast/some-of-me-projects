@@ -1,6 +1,5 @@
--- luau_shim.lua
--- This module defines several functions that exist in Luau but are missing in pure Lua.
--- Simply require this file at the top of your Lua scripts to “enable” these Luau commands.
+-- This piece of code defines several functions that exist in Luau but are missing in pure Lua.
+-- Simply put this file at the top of your Lua scripts to “enable” these Luau commands.
 
 -- Define table.find: returns the first index at which the value is found, or nil.
 if not table.find then
